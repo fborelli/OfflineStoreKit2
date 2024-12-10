@@ -1,0 +1,6 @@
+framework module OfflineStoreKit2Framework {
+  umbrella header "OfflineStoreKit2Framework.h"
+  export *
+
+  module * { export * }
+}

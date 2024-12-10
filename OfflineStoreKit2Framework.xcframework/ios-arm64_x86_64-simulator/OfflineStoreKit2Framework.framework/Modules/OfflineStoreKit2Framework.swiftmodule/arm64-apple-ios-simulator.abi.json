@@ -1,0 +1,1778 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OfflineStoreKit2Framework",
+    "printedName": "OfflineStoreKit2Framework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflineProduct",
+        "printedName": "OfflineProduct",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV11displayNameSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV11displayNameSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV11displayNameSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV11displayNameSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV11descriptionSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV11descriptionSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV11descriptionSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV11descriptionSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayPrice",
+            "printedName": "displayPrice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV12displayPriceSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV12displayPriceSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV12displayPriceSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV12displayPriceSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Decimal",
+                "printedName": "Foundation.Decimal",
+                "usr": "c:@SA@NSDecimal"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV5priceSo9NSDecimalavp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV5priceSo9NSDecimalavp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV5priceSo9NSDecimalavg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV5priceSo9NSDecimalavg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV2idSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV2idSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV2idSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV2idSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductType",
+                "printedName": "StoreKit.Product.ProductType",
+                "usr": "s:8StoreKit7ProductV0C4TypeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV4type0B3Kit0E0V0E4TypeVvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV4type0B3Kit0E0V0E4TypeVvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProductType",
+                    "printedName": "StoreKit.Product.ProductType",
+                    "usr": "s:8StoreKit7ProductV0C4TypeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV4type0B3Kit0E0V0E4TypeVvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV4type0B3Kit0E0V0E4TypeVvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OfflineProduct",
+                "printedName": "OfflineStoreKit2Framework.OfflineProduct",
+                "usr": "s:25OfflineStoreKit2Framework0A7ProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A7ProductV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV6encode2toys7Encoder_p_tKF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25OfflineStoreKit2Framework0A7ProductV",
+        "mangledName": "$s25OfflineStoreKit2Framework0A7ProductV",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflineTransaction",
+        "printedName": "OfflineTransaction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "originalID",
+            "printedName": "originalID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV10originalIDs6UInt64Vvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV10originalIDs6UInt64Vvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV10originalIDs6UInt64Vvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV10originalIDs6UInt64Vvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "originalPurchaseDate",
+            "printedName": "originalPurchaseDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV20originalPurchaseDate10Foundation0H0Vvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV20originalPurchaseDate10Foundation0H0Vvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV20originalPurchaseDate10Foundation0H0Vvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV20originalPurchaseDate10Foundation0H0Vvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV2ids6UInt64Vvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV2ids6UInt64Vvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV2ids6UInt64Vvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV2ids6UInt64Vvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appBundleID",
+            "printedName": "appBundleID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV11appBundleIDSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV11appBundleIDSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV11appBundleIDSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV11appBundleIDSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productID",
+            "printedName": "productID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV9productIDSSvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV9productIDSSvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV9productIDSSvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV9productIDSSvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productType",
+            "printedName": "productType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductType",
+                "printedName": "StoreKit.Product.ProductType",
+                "usr": "s:8StoreKit7ProductV0C4TypeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV11productType0B3Kit7ProductV0iG0Vvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV11productType0B3Kit7ProductV0iG0Vvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProductType",
+                    "printedName": "StoreKit.Product.ProductType",
+                    "usr": "s:8StoreKit7ProductV0C4TypeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV11productType0B3Kit7ProductV0iG0Vvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV11productType0B3Kit7ProductV0iG0Vvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subscriptionGroupID",
+            "printedName": "subscriptionGroupID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV19subscriptionGroupIDSSSgvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV19subscriptionGroupIDSSSgvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV19subscriptionGroupIDSSSgvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV19subscriptionGroupIDSSSgvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "purchaseDate",
+            "printedName": "purchaseDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV12purchaseDate10Foundation0G0Vvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV12purchaseDate10Foundation0G0Vvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV12purchaseDate10Foundation0G0Vvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV12purchaseDate10Foundation0G0Vvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirationDate",
+            "printedName": "expirationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV14expirationDate10Foundation0G0VSgvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV14expirationDate10Foundation0G0VSgvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV14expirationDate10Foundation0G0VSgvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV14expirationDate10Foundation0G0VSgvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Decimal?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decimal",
+                    "printedName": "Foundation.Decimal",
+                    "usr": "c:@SA@NSDecimal"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Decimal?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decimal",
+                        "printedName": "Foundation.Decimal",
+                        "usr": "c:@SA@NSDecimal"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Decimal?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Decimal",
+                        "printedName": "Foundation.Decimal",
+                        "usr": "c:@SA@NSDecimal"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvs",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvs",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvM",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV5priceSo9NSDecimalaSgvM",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isUpgraded",
+            "printedName": "isUpgraded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV10isUpgradedSbvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV10isUpgradedSbvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV10isUpgradedSbvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV10isUpgradedSbvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "revocationDate",
+            "printedName": "revocationDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV14revocationDate10Foundation0G0VSgvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV14revocationDate10Foundation0G0VSgvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV14revocationDate10Foundation0G0VSgvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV14revocationDate10Foundation0G0VSgvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OfflineTransaction",
+                "printedName": "OfflineStoreKit2Framework.OfflineTransaction",
+                "usr": "s:25OfflineStoreKit2Framework0A11TransactionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A11TransactionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25OfflineStoreKit2Framework0A11TransactionV",
+        "mangledName": "$s25OfflineStoreKit2Framework0A11TransactionV",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflineTransactionsManager",
+        "printedName": "OfflineTransactionsManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OfflineTransactionsManagerDelegate",
+                        "printedName": "any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate",
+                        "usr": "s:25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OfflineTransactionsManagerDelegate",
+                        "printedName": "any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate",
+                        "usr": "s:25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvs",
+                "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvs",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvM",
+                "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8delegateAA0aeF8Delegate_pSgvM",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isOnline",
+            "printedName": "isOnline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8isOnlineSbvp",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8isOnlineSbvp",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC8isOnlineSbvg",
+                "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC8isOnlineSbvg",
+                "moduleName": "OfflineStoreKit2Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(license:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OfflineTransactionsManager",
+                "printedName": "OfflineStoreKit2Framework.OfflineTransactionsManager",
+                "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC7licenseACSS_tcfc",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC7licenseACSS_tcfc",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "storeOfflineTransactions",
+            "printedName": "storeOfflineTransactions(currentEntitlements:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Transactions",
+                "printedName": "StoreKit.Transaction.Transactions",
+                "usr": "s:8StoreKit11TransactionV12TransactionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC05storeaE019currentEntitlementsy0B3Kit11TransactionV0E0V_tYaF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC05storeaE019currentEntitlementsy0B3Kit11TransactionV0E0V_tYaF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "storeOfflineProducts",
+            "printedName": "storeOfflineProducts(storeProducts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[StoreKit.Product]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "StoreKit.Product",
+                    "usr": "s:8StoreKit7ProductV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC05storeA8Products0gH0ySay0B3Kit7ProductVG_tYaF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC05storeA8Products0gH0ySay0B3Kit7ProductVG_tYaF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateCustomerProductStatusOffline",
+            "printedName": "updateCustomerProductStatusOffline(purchasedNonConsumables:purchasedSubscriptions:purchasedNonRenewableSubscriptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OfflineStoreKit2Framework.OfflineProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OfflineProduct",
+                    "printedName": "OfflineStoreKit2Framework.OfflineProduct",
+                    "usr": "s:25OfflineStoreKit2Framework0A7ProductV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OfflineStoreKit2Framework.OfflineProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OfflineProduct",
+                    "printedName": "OfflineStoreKit2Framework.OfflineProduct",
+                    "usr": "s:25OfflineStoreKit2Framework0A7ProductV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OfflineStoreKit2Framework.OfflineProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OfflineProduct",
+                    "printedName": "OfflineStoreKit2Framework.OfflineProduct",
+                    "usr": "s:25OfflineStoreKit2Framework0A7ProductV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC027updateCustomerProductStatusA023purchasedNonConsumables0K13Subscriptions0kl9RenewableN0ySayAA0aI0VGz_AJzAJztYaF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC027updateCustomerProductStatusA023purchasedNonConsumables0K13Subscriptions0kl9RenewableN0ySayAA0aI0VGz_AJzAJztYaF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25OfflineStoreKit2Framework0A19TransactionsManagerC",
+        "mangledName": "$s25OfflineStoreKit2Framework0A19TransactionsManagerC",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OfflineStoreKit2Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflineTransactionsManagerDelegate",
+        "printedName": "OfflineTransactionsManagerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didNetworkStatusChanged",
+            "printedName": "didNetworkStatusChanged()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP23didNetworkStatusChangedyyYaF",
+            "mangledName": "$s25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP23didNetworkStatusChangedyyYaF",
+            "moduleName": "OfflineStoreKit2Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate>",
+            "sugared_genericSig": "<Self where Self : OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP",
+        "mangledName": "$s25OfflineStoreKit2Framework0A27TransactionsManagerDelegateP",
+        "moduleName": "OfflineStoreKit2Framework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 9,
+      "value": "\"Monitor\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 657,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 162,
+      "value": "\"MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEC6PMG+NuyyjHxYYIGcsyP\/9wDUWRdQRvkR60Mk+Jtzsp\/6wgZGPJZc8EORA+uTiIr5ZXHlgyqr6fOWarmPVOXJgNY1R1J2xRwf0POZqeSe47xmaqrl\/PatdegtRHIM5H\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 142,
+      "value": "\"OfflineStoreKit2 Error: Invalid license format. This is a commercial product. Please purchase your license for the product to work properly.\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2829,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2840,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2887,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2898,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2970,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2975,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3009,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "Array",
+      "offset": 3377,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3587,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3630,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/fabioluizparanhosborelli\/Library\/CloudStorage\/OneDrive-Pessoal\/Projetos\/OfflineStoreKit2Framework\/OfflineStoreKit2Framework\/OfflineTransactionsManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3680,
+      "length": 1,
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OfflineStoreKit2Framework
+import CryptoKit
+import Foundation
+import Network
+@_exported import OfflineStoreKit2Framework
+import StoreKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct OfflineProduct : Swift.Identifiable, Swift.Codable {
+  public let displayName: Swift.String
+  public let description: Swift.String
+  public let displayPrice: Swift.String
+  public let price: Foundation.Decimal
+  public let id: Swift.String
+  public let type: StoreKit.Product.ProductType
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public typealias ID = Swift.String
+}
+public struct OfflineTransaction : Swift.Identifiable, Swift.Codable {
+  public let originalID: Swift.UInt64
+  public let originalPurchaseDate: Foundation.Date
+  public let id: Swift.UInt64
+  public let appBundleID: Swift.String
+  public let productID: Swift.String
+  public let productType: StoreKit.Product.ProductType
+  public let subscriptionGroupID: Swift.String?
+  public let purchaseDate: Foundation.Date
+  public let expirationDate: Foundation.Date?
+  public var price: Foundation.Decimal?
+  public let isUpgraded: Swift.Bool
+  public let revocationDate: Foundation.Date?
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public typealias ID = Swift.UInt64
+}
+public class OfflineTransactionsManager {
+  weak public var delegate: (any OfflineStoreKit2Framework.OfflineTransactionsManagerDelegate)?
+  public var isOnline: Swift.Bool {
+    get
+  }
+  public init(license: Swift.String)
+  public func storeOfflineTransactions(currentEntitlements: StoreKit.Transaction.Transactions) async
+  public func storeOfflineProducts(storeProducts: [StoreKit.Product]) async
+  @_Concurrency.MainActor public func updateCustomerProductStatusOffline(purchasedNonConsumables: inout [OfflineStoreKit2Framework.OfflineProduct], purchasedSubscriptions: inout [OfflineStoreKit2Framework.OfflineProduct], purchasedNonRenewableSubscriptions: inout [OfflineStoreKit2Framework.OfflineProduct]) async
+  @objc deinit
+}
+public protocol OfflineTransactionsManagerDelegate : AnyObject {
+  func didNetworkStatusChanged() async
+}
