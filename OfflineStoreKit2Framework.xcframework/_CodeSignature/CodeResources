@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+		rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 		</data>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/OfflineStoreKit2Framework</key>
 		<data>
-		ehXxpDyfMP11jr8lRf7s95gRS/g=
+		AhGYPumC8pZWWmaeBuG1IvvVoWQ=
 		</data>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qCFErjJuvbkB3IMEHkQSY0kWglg=
+		I2I7ytP6JEyPYca7bMWtTKSna5c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Headers/OfflineStoreKit2Framework.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+		rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+		rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/OfflineStoreKit2Framework</key>
 		<data>
-		HTT0uFlzLS2qbJnPE95pW6wy9DA=
+		04eQMMKLJJPgpJQsTSSnYq0vM64=
 		</data>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aanPTN+S+a4i939zIQvy0sJgUUY=
+		HUYC6S9X8NM81uLh0N7YsXSyK7M=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+			rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			A5SdmSl2a82u2xPyWsW4VulEzXnPb505qdG5uj7bnEo=
+			ip0+CW+YA/08RR99YUq1vX5WnGXSTmOuyG6ESOtTGMg=
 			</data>
 		</dict>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -176,22 +176,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ehXxpDyfMP11jr8lRf7s95gRS/g=
+			AhGYPumC8pZWWmaeBuG1IvvVoWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nVzvWa1WaUxAPqsMqY88qpYTCzfwqe5AoCNW2+1E094=
+			mqgOLPJ9poqkUm+HjiJDS6st1Hsh83Vv0Z+MVyYp0Os=
 			</data>
 		</dict>
 		<key>ios-arm64/OfflineStoreKit2Framework.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qCFErjJuvbkB3IMEHkQSY0kWglg=
+			I2I7ytP6JEyPYca7bMWtTKSna5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			c9dRMRcYoNOZnKDtRMIu0HkyQAo3GNKAO+NgEFhx1fk=
+			fvL9u3ue14DwecppatViTVCDsz/uBi2wSoxk5jghldQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Headers/OfflineStoreKit2Framework.h</key>
@@ -220,11 +220,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+			rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			A5SdmSl2a82u2xPyWsW4VulEzXnPb505qdG5uj7bnEo=
+			ip0+CW+YA/08RR99YUq1vX5WnGXSTmOuyG6ESOtTGMg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -264,11 +264,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3VzM8dPfvTlNdBp9emJ+Hs+hdos=
+			rUC4qK2i1yAuS1f8ShqCZvkMv6Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			A5SdmSl2a82u2xPyWsW4VulEzXnPb505qdG5uj7bnEo=
+			ip0+CW+YA/08RR99YUq1vX5WnGXSTmOuyG6ESOtTGMg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/Modules/OfflineStoreKit2Framework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -319,22 +319,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HTT0uFlzLS2qbJnPE95pW6wy9DA=
+			04eQMMKLJJPgpJQsTSSnYq0vM64=
 			</data>
 			<key>hash2</key>
 			<data>
-			epkEpdAQkxnfvb/H0hyO07RLDeKPcVg+DMXWFemRiU8=
+			wtB5QC0QFPsELmRKMJGKRjEUBkB70WEds6Z3U4I59+s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/OfflineStoreKit2Framework.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aanPTN+S+a4i939zIQvy0sJgUUY=
+			HUYC6S9X8NM81uLh0N7YsXSyK7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Wd+HRMQE+1CSfm1aEuxyfI/btewpGYin1rVfo9qC9o=
+			2KLA44mnq8Aiwtt2h7JmeUUikiQWytg2KtVvxR8oX2U=
 			</data>
 		</dict>
 	</dict>
