@@ -38,4 +38,4 @@ OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscri
 - iOS 15.6+
 
 ## License
-- This is a commercial product. Please purchase your license for the product to work properly.
+- This is a commercial product. Please purchase your license to make the product work properly and support an independent software developer.
