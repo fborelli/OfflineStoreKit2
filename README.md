@@ -32,7 +32,12 @@ OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscri
 - No subscriptions
 
 ## Getting Started
-- To get started please download the sample code: [Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api).
+- You can use the Swift Package Manager to add the OfflineStoreKit2 framework to your Xcode project. Open your app in Xcode and select the Package Dependencies tab for your project. Copy the URL below into the search field. Set the Dependency Rule to Up to next major and click "Add Package". Apple has a great [article](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) on how to add SwiftPM to your project.
+
+  ```
+  https://github.com/fborelli/OfflineStoreKit2.git
+  ```
+- For the next steps we will illustrate using Apple's sample code. To apply it to your project, use the analogy. Please download the sample code at: [Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api).
 
 ## Requirements
 - iOS 15.6+
