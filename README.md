@@ -32,7 +32,7 @@ OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscri
 - No subscriptions
 
 ## Getting Started
-- 
+- To get started please download the sample code: [Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api).
 
 ## Requirements
 - iOS 15.6+
