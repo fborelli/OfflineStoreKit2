@@ -43,4 +43,5 @@ OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscri
 - iOS 15.6+
 
 ## License
-- This is a commercial product. Please purchase your license to make the product work properly and support an independent software developer.
+- OfflineStoreKit2 is a commercial product and uses a license key to verify your copy against the bundle ID you provide. Once a bundle ID is registered in the OfflineStoreKit2 license site it can’t be changed. Please note that these IDs are case-sensitive, so make sure you register the correct case variant. To find the app bundle ID in Xcode navigate to your project/target settings. Under the “General” tab, locate the “Bundle Identifier” field, which contains your app’s bundle ID.
+- Please purchase your license to make the product work properly and support an independent software developer.
