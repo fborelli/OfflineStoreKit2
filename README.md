@@ -31,6 +31,27 @@ OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscri
 - Lifetime purchase
 - No subscriptions
 
+## Sequence diagram
+```mermaid
+sequenceDiagram
+    participant YourApp
+    participant AppStore
+    participant OfflineStoreKit2
+    YourApp->>AppStore: requestProducts()
+    AppStore-->>YourApp: [StoreKit.Product]
+    YourApp->>OfflineStoreKit2: storeOfflineProducts
+    YourApp->>AppStore: Transaction.currentEntitlements
+    AppStore-->>YourApp: [StoreKit.Transaction]
+    YourApp->>OfflineStoreKit2: storeOfflineTransactions
+    Note over YourApp,AppStore: Offline (or Airplane Mode)
+    OfflineStoreKit2->>YourApp: didNetworkStatusChanged()
+    YourApp->>OfflineStoreKit2: updateCustomerProductStatusOffline()
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonConsumables]
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedSubscriptions]
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonRenewableSubscriptions]
+```
+
+
 ## Getting Started
 - You can use the Swift Package Manager to add the OfflineStoreKit2 framework to your Xcode project. Open your app in Xcode and select the Package Dependencies tab for your project. Copy the URL below into the search field. Set the Dependency Rule to Up to next major and click "Add Package". Apple has a great [article](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) on how to add SwiftPM to your project.
 
