@@ -43,7 +43,7 @@ sequenceDiagram
     YourApp->>AppStore: Transaction.currentEntitlements
     AppStore-->>YourApp: [StoreKit.Transaction]
     YourApp->>OfflineStoreKit2: storeOfflineTransactions
-    Note over YourApp,AppStore: Offline (or Airplane Mode)
+    Note over YourApp,OfflineStoreKit2: Offline (or Airplane Mode)
     OfflineStoreKit2->>YourApp: didNetworkStatusChanged()
     YourApp->>OfflineStoreKit2: updateCustomerProductStatusOffline()
     OfflineStoreKit2-->>YourApp: [offlinePurchasedNonConsumables]
