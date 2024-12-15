@@ -1,10 +1,10 @@
-# OfflineStoreKit2
+# Offline StoreKit 2
 
 ![SwiftPM](https://img.shields.io/badge/SwiftPM-compatible-orange.svg)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ffborelli%2FOfflineStoreKit2%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/fborelli/OfflineStoreKit2)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ffborelli%2FOfflineStoreKit2%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/fborelli/OfflineStoreKit2)
 
-OfflineStoreKit2 is a StoreKit wrapper to recognize in-app purchases and subscriptions without internet (offline) or airplane mode. To do this, valid transactions are stored in UserDefaults using AES.GCM encryption.
+Offline StoreKit 2 is a StoreKit wrapper to recognize in-app purchases and subscriptions without internet (offline) or airplane mode. To do this, valid transactions are stored in UserDefaults using AES.GCM encryption.
 
 ## Motivation
 [DataAppz](https://www.data-appz.com/)'s main product on the iOS AppStore is the [AeroChart](https://apps.apple.com/us/app/id1287592414?l=pt&ls=1&mt=8) app. This is an app for pilots and aviation enthusiasts. Focused on private and commercial aviation, it helps with navigation by allowing the visualization of aeronautical charts in an organized manner. In recent years, we have been using receipt validation on the device and on the server. StoreKit 2 has made it much easier to validate purchase receipts. However, if you are offline, purchases are only cached for a few minutes (5 to 15 minutes). Since some of our users need to use [AeroChart](https://apps.apple.com/us/app/id1287592414?l=pt&ls=1&mt=8) in airplane mode, our app ended up leaving many users disappointed. We thought of this solution as a way to allow receipt validation offline without compromising data reliability.
