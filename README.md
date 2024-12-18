@@ -31,6 +31,15 @@ Offline StoreKit 2 is a StoreKit wrapper to recognize in-app purchases and subsc
 - Lifetime purchase
 - No subscriptions
 
+## Requirements
+- iOS 15.6+
+## Installation
+- Swift Package Manager
+
+## License
+- OfflineStoreKit2 is a commercial product and uses a license key to verify your copy against the bundle ID you provide. Once a bundle ID is registered in the OfflineStoreKit2 license site it can’t be changed. Please note that these IDs are case-sensitive, so make sure you register the correct case variant. To find the app bundle ID in Xcode navigate to your project/target settings. Under the “General” tab, locate the “Bundle Identifier” field, which contains your app’s bundle ID.
+- Please purchase your license to make the product work properly and support an independent software developer.
+
 ## Sequence diagram
 ```mermaid
 sequenceDiagram
@@ -59,10 +68,3 @@ sequenceDiagram
   https://github.com/fborelli/OfflineStoreKit2.git
   ```
 - For the next steps we will illustrate using Apple's sample code. To apply it to your project, use the analogy. Please download the sample code at: [Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api).
-
-## Requirements
-- iOS 15.6+
-
-## License
-- OfflineStoreKit2 is a commercial product and uses a license key to verify your copy against the bundle ID you provide. Once a bundle ID is registered in the OfflineStoreKit2 license site it can’t be changed. Please note that these IDs are case-sensitive, so make sure you register the correct case variant. To find the app bundle ID in Xcode navigate to your project/target settings. Under the “General” tab, locate the “Bundle Identifier” field, which contains your app’s bundle ID.
-- Please purchase your license to make the product work properly and support an independent software developer.
