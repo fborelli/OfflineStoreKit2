@@ -59,7 +59,7 @@ Offline StoreKit 2 is a StoreKit wrapper to recognize in-app purchases and subsc
 ```Swift
     import OfflineStoreKit2Framework
 ```
-5. Include the following properties. The first three are used to receive purchased products that were previously stored. The last one is the call to the OfflineTransactionsManager class passing the respective license to the BundleID: "com.example.apple-samplecode.implementing-a-store-in-your-app-using-the-storekit-api". Please [purchase your license here](https://fborelli.gumroad.com/l/rqnmja).
+5. Include the following properties. The first three are used to receive purchased products that were previously stored. The last one is the call to the OfflineTransactionsManager class passing as a parameter the license for the respective BundleID: "com.example.apple-samplecode.implementing-a-store-in-your-app-using-the-storekit-api". Please [purchase your license here](https://fborelli.gumroad.com/l/rqnmja).
 ```Swift
     @Published private(set) var offlinePurchasedNonConsumables: [OfflineProduct] = []
     @Published private(set) var offlinePurchasedNonRenewableSubscriptions: [OfflineProduct] = []
