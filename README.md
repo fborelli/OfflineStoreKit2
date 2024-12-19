@@ -106,8 +106,6 @@ let storeProducts = try await Product.products(for: productIdToEmoji.keys)
 await offlineTransactionsManager.storeOfflineProducts(storeProducts: storeProducts)
 ```
 Ok, Done! As soon as the application goes offline, the offlinePurchasedNonConsumables, offlinePurchasedNonRenewableSubscriptions and offlinePurchasedSubscriptions properties will be populated by the updateCustomerProductStatus func. And they will be ready to be used. 
-
-But wait, it's not working! The sample code uses the Xcode Environment to manage in-app purchases and subscriptions. To make it work, we will need to use the Sandbox Environment. We will explain this in the next section.
     
 ## Sequence diagram
 ```mermaid
