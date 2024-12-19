@@ -48,27 +48,6 @@ Offline StoreKit 2 is a StoreKit wrapper to recognize in-app purchases and subsc
 > [!TIP]
 > To find the app bundle ID in Xcode navigate to your project/target settings. Under the “General” tab, locate the “Bundle Identifier” field, which contains your app’s bundle ID.
 
-## Sequence diagram
-```mermaid
-sequenceDiagram
-    participant YourApp
-    participant AppStore
-    participant OfflineStoreKit2
-    YourApp->>AppStore: requestProducts()
-    AppStore-->>YourApp: [StoreKit.Product]
-    YourApp->>OfflineStoreKit2: storeOfflineProducts
-    YourApp->>AppStore: Transaction.currentEntitlements
-    AppStore-->>YourApp: [StoreKit.Transaction]
-    YourApp->>OfflineStoreKit2: storeOfflineTransactions
-    Note over YourApp,OfflineStoreKit2: Offline (or Airplane Mode)
-    OfflineStoreKit2->>YourApp: didNetworkStatusChanged()
-    YourApp->>OfflineStoreKit2: updateCustomerProductStatusOffline()
-    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonConsumables]
-    OfflineStoreKit2-->>YourApp: [offlinePurchasedSubscriptions]
-    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonRenewableSubscriptions]
-```
-
-
 ## Getting Started
 1. For the next steps, for educational purposes, we will illustrate using Apple's StoreKit 2 Sample Code. Download the example code at: [Implementing a store in your app using the StoreKit API](https://developer.apple.com/documentation/storekit/implementing-a-store-in-your-app-using-the-storekit-api). Please use the analogy to replicate the code modifications to your project.
 2. Use the Swift Package Manager to add the OfflineStoreKit2 framework to your Xcode project. Open your project in Xcode and select project and then the Package Dependencies tab. Copy the URL below into the search field. Set the Dependency Rule to Up to next major and click "Add Package". Apple has a great [article](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) on how to add SwiftPM to your project.
@@ -123,3 +102,22 @@ sequenceDiagram
     await offlineTransactionsManager.storeOfflineProducts(storeProducts: storeProducts)
 ```
 
+## Sequence diagram
+```mermaid
+sequenceDiagram
+    participant YourApp
+    participant AppStore
+    participant OfflineStoreKit2
+    YourApp->>AppStore: requestProducts()
+    AppStore-->>YourApp: [StoreKit.Product]
+    YourApp->>OfflineStoreKit2: storeOfflineProducts
+    YourApp->>AppStore: Transaction.currentEntitlements
+    AppStore-->>YourApp: [StoreKit.Transaction]
+    YourApp->>OfflineStoreKit2: storeOfflineTransactions
+    Note over YourApp,OfflineStoreKit2: Offline (or Airplane Mode)
+    OfflineStoreKit2->>YourApp: didNetworkStatusChanged()
+    YourApp->>OfflineStoreKit2: updateCustomerProductStatusOffline()
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonConsumables]
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedSubscriptions]
+    OfflineStoreKit2-->>YourApp: [offlinePurchasedNonRenewableSubscriptions]
+```
