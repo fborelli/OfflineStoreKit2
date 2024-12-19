@@ -101,7 +101,8 @@ Offline StoreKit 2 is a StoreKit wrapper to recognize in-app purchases and subsc
     let storeProducts = try await Product.products(for: productIdToEmoji.keys)
     await offlineTransactionsManager.storeOfflineProducts(storeProducts: storeProducts)
 ```
-
+10. Done! As soon as the application goes offline, the offlinePurchasedNonConsumables, offlinePurchasedNonRenewableSubscriptions and offlinePurchasedSubscriptions properties will be populated by the updateCustomerProductStatus func. And they will be ready to be used.
+    
 ## Sequence diagram
 ```mermaid
 sequenceDiagram
