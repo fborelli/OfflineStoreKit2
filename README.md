@@ -106,6 +106,28 @@ let storeProducts = try await Product.products(for: productIdToEmoji.keys)
 await offlineTransactionsManager.storeOfflineProducts(storeProducts: storeProducts)
 ```
 Ok, Done! As soon as the application goes offline, the offlinePurchasedNonConsumables, offlinePurchasedNonRenewableSubscriptions and offlinePurchasedSubscriptions properties will be populated by the updateCustomerProductStatus func. And they will be ready to be used. 
+
+## How to simulate an offline connection
+
+1. Disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
+> [!NOTE]
+> Note that in-app purchases and subscriptions must be registered in App Store Connect
+2. Connect your physical device to your Mac via cable
+3. Set a breakpoint at the first call or entry point of your App.
+4. Start debugging and wait until Xcode stops at the breakpoint.
+5. Remove the breakpoint, but do not continue execution
+6. Turn on airplane mode on your device
+7. Click continue program execution
+
+## To simulate a change in the connection state
+
+1. Disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
+> [!NOTE]
+> Please note that in-app purchases and subscriptions must be registered with App Store Connect
+2. Connect your physical device to your Mac via cable
+3. Turn on/off airplane mode on your device
+> [!TIP]
+> Remember that the StoreKit cache stores purchases for 5 to 15 minutes even without internet. So if you want to simulate a change in the connection status, keep this in mind. Include a breakpoint and wait for this time.
     
 ## Sequence diagram
 ```mermaid
