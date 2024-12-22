@@ -109,7 +109,7 @@ Ok, Done! As soon as the application goes offline, the offlinePurchasedNonConsum
 
 ## How to simulate an offline connection
 
-1. Disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
+1. In your app (no longer in the sample code), disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
 > [!NOTE]
 > Note that in-app purchases and subscriptions must be registered in App Store Connect
 2. Connect your physical device to your Mac via cable
@@ -121,7 +121,7 @@ Ok, Done! As soon as the application goes offline, the offlinePurchasedNonConsum
 
 ## To simulate a change in the connection state
 
-1. Disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
+1. In your app (no longer in the sample code), disable StoreKit Configuration if it is enabled in Product > Scheme > Edit Scheme > StoreKit Configuration by setting it to None. This will allow your app to use the Sandbox environment instead of the Xcode environment.
 > [!NOTE]
 > Please note that in-app purchases and subscriptions must be registered with App Store Connect
 2. Connect your physical device to your Mac via cable
